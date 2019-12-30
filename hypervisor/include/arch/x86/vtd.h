@@ -472,8 +472,8 @@ static inline uint16_t dma_frcd_up_sid(uint64_t up_sid)
 	return ((uint16_t)up_sid & 0xffffU);
 }
 
-#define MAX_DRHDS		DRHD_COUNT
-#define MAX_DRHD_DEVSCOPES	16U
+#define MAX_DRHDS		4U	
+#define MAX_DRHD_DEVSCOPES	8U
 
 #define DMAR_CONTEXT_TRANSLATION_TYPE_TRANSLATED 0x00U
 #define DMAR_CONTEXT_TRANSLATION_TYPE_RESERVED 0x01U
